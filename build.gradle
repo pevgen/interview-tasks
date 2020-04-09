@@ -12,15 +12,15 @@ repositories {
 
 dependencies {
     // This dependency is found on compile classpath of this component and consumers.
-    implementation 'com.google.guava:guava:26.0-jre'
-    implementation group: 'org.projectlombok', name: 'lombok', version: '1.18.4'
+    implementation 'com.google.guava:guava:28.0-jre'
+    implementation group: 'org.projectlombok', name: 'lombok', version: '1.18.10'
     implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
     testImplementation group: 'org.mockito', name: 'mockito-core', version: '2.23.0'
 
-    annotationProcessor 'org.projectlombok:lombok:1.18.4'
+    annotationProcessor 'org.projectlombok:lombok:1.18.10'
 }
 
 // Define the main class for the application
