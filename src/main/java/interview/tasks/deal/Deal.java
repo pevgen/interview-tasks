@@ -6,7 +6,7 @@ import org.apache.commons.lang3.RandomStringUtils;
 import java.util.Random;
 
 @Value
-class Deal {
+public class Deal {
 	private static final Random RANDOM = new Random(1_000_000);
 
 	String name;
