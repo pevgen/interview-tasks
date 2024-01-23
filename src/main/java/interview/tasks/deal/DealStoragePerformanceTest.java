@@ -7,6 +7,15 @@ import java.util.stream.IntStream;
 
 class DealStoragePerformanceTest {
 
+	/*
+	  Показывает пример использования DealStorage внешним кодом
+
+	  Задание:
+	  	посмотреть на результаты времён в консоли, предположить причину(-ы)
+	  	и предложить вариант улучшения времени работы apiCall
+	  	при этом менять интерфейс DealStorage нельзя
+
+	 */
 	public static void main(String[] args) {
 		final DealStorage dealStorage = new DealInMemoryStorage();
 
